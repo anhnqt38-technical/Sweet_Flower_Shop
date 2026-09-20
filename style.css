@@ -1,0 +1,124 @@
+:root {
+    --color-primary: #0045ad;
+    --color-secondary: #74259b; 
+    --color-accent: #c85a17;  
+    --color-success: #436649; 
+    --color-warning: #ffcc00; 
+    --color-black: #000000;
+    --color-dark-gray: #999999;
+    --color-light-gray: #dcdcdc;
+    --color-white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--color-black);
+    background: var(--color-white);
+}
+
+.header {
+    color: var(--color-black);
+}
+
+.header .navigation{
+    padding: 0px 5px;
+    border-bottom: 2px solid var(--color-black);
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.title-container {
+    width: 100%;
+}
+.title-container .main-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px 0px;
+    font-size: 150px;
+    margin: 10px 0 5px;
+}
+
+.header-image {
+    position: relative;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.header-image img {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.badge {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    
+}
+
+.bagde-mess {
+    text-align: center;
+    width: 90px;
+}
+
+.small-text {
+    display: block;
+    font-size: 9px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    line-height: 2;
+    color: var(--color-black);
+}
+
+.main-text {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: var(--color-black);
+}
+
+.small-text-to-bold {
+    display: block;
+    margin-top: 5px;
+    font-size: 8px;
+    font-weight: 900;
+    color: var(--color-black);
+}
