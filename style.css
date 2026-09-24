@@ -122,3 +122,47 @@ body {
     font-weight: 900;
     color: var(--color-black);
 }
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+section .container {
+    width: min(900px, 100%);
+    padding: 25px 30px;
+}
+
+.small-title {
+    margin: 0 0 18px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: var(--color-dark-gray);
+}
+
+
+.para {
+    margin: 10px auto;
+    max-width: 760px;
+    font-size: 40px;
+    line-height: 1.2;
+    color: var(--color-black);
+    text-align: center;
+}
+
+button {
+    background-color: var(--color-yellow);
+    border-radius: 10px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    font-size: 17px;
+}
