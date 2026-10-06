@@ -151,21 +151,21 @@ section .container {
     color: var(--color-dark-gray);
 }
 
-
 .para {
-    margin: 10px auto;
+    margin: 10px 30px;
     max-width: 760px;
     font-size: 40px;
     line-height: 1.2;
     color: var(--color-black);
     text-align: center;
+    font-weight: bold;
 }
 
 button {
     background-color: var(--color-yellow);
     border-radius: 10px;
-    margin: 5px 5px;
-    padding: 5px 5px;
+    margin: 10px 10px;
+    padding: 10px 10px;
     font-size: 17px;
 }
 
