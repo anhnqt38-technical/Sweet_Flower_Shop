@@ -255,3 +255,56 @@ button {
     padding: 10px 10px;
     font-size: 17px;
 }
+
+.fot {
+    width: 90%;
+    margin: 0 auto 15px;
+}
+
+.fot-ob {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fot-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.fot-overide {
+    position: absolute;
+    z-index: 1;
+    color: var(--color-white);
+    inset: 0;
+}
+
+.fot-title {
+    position: absolute;
+    bottom: 50px;
+    left: 47%;
+    margin: 5px 5px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.fot-para-left {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.fot-para-right {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    margin: 0px;
+    font-size: 20px;
+}
